@@ -1,0 +1,56 @@
+/* IPCLaws.css */
+.ipcLaws {
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    color: lightgreen;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    color: green;
+  }
+  
+  .searchForm {
+    display: content;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type='text'] {
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid lightgreen;
+    background-color: black;
+    color: lightgreen;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+  }
+  
+  .searchResults {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }

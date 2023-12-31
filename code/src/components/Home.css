@@ -1,0 +1,42 @@
+/* Home.css */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content to the top */
+    height: 100vh;
+    background-image: url('https://wallpaper.dog/large/5554825.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .home-content {
+    background-color: rgba(255, 255, 255, 0.7); /* White with some opacity */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px; /* Adjust top margin */
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #555;
+  }
+  
+  nav ul li a:hover {
+    color: #000;
+  }
+  
